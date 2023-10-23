@@ -6,7 +6,7 @@ export default function MainPage() {
       <div>Flowscript Language Visualizer</div>
       <CodeInput />
       <div id="result">
-        <div id="error">Errors will appear here</div>
+        <div id="error"></div>
       </div>
     </div>
   );
