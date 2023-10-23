@@ -1,1 +1,1 @@
-# Flowscript visualizer
+# FlowScript visualizer
