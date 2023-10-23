@@ -32,8 +32,7 @@ const app = new Elysia()
     // Feed in the code
     if (proc.exitCode !== 0) {
       const message = proc.stderr.toString();
-      console.log("error", message);
-
+      console.log("error: ", message);
       set.headers["HX-Retarget"] = "#error";
       return <div class="text-red-500">{message}</div>;
     } else {
