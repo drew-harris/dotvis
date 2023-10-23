@@ -9,7 +9,7 @@ export default function CodeInput() {
           hx-trigger="keyup changed delay:500ms"
           hx-indicator=".htmx-indicator"
           rows="20"
-          placeholder="Enter flowscript here..."
+          placeholder="Enter FlowScript here..."
           class="relative p-2 border-black w-full border-2"
         ></textarea>
         <img
