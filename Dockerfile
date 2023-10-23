@@ -28,6 +28,8 @@ COPY . .
 
 RUN bun tw
 
+RUN mkdir images
+
 # Start the server by default, this can be overwritten at runtime
 EXPOSE 3000
 CMD [ "bun", "src/index.tsx" ]
