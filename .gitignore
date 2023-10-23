@@ -173,3 +173,4 @@ dist
 images/**
 *.dot
 **.svg
+!90-ring.svg
