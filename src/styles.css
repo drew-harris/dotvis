@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug {
+  outline: 1px solid red;
+}
+
+.content {
+  text-wrap: balance;
+}
+
+mark {
+  background: #fef08a;
+}
